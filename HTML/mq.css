@@ -1,0 +1,65 @@
+.body{
+    background-color: rgb(255, 255, 255);
+
+    @media(max-width: 600px){
+        background-color: rgb(5, 131, 248);
+            
+    }
+}
+
+.Caja3{
+    background-color: rgb(255, 73, 73);
+    border: 2px solid rgb(0, 0, 0);
+    margin: 10px; 
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 24px;
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    @media(max-width: 600px){
+        background-color: black;
+        color: white;
+    }
+    
+}
+
+.Nav{
+    @media(max-width: 768px){
+        display: flex;
+        flex-direction: column;
+            
+    }
+}
+
+.Nav a{
+    text-decoration: none; /* Elimina la línea azul */
+    color: inherit;       /* Opcional: mantiene el color original del texto */
+}
+
+.Meme{
+    @media(max-width: 576px){
+        display: none;
+    }
+}
+
+.contenedor{
+    display: flex;
+    gap: 10px;
+    @media(max-width: 596px){
+        .caja:nth-child(2),
+        .caja:nth-child(3) {
+            display: none;
+        }
+    }
+}
+
+.Titulo{
+    font-size: 40px;
+    @media(max-width: 992px){
+        font-size: 30px;
+    }
+    @media(max-width: 576px){
+        font-size: 20px;
+    }
+}
