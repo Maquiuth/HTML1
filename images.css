@@ -1,0 +1,72 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+}
+
+.imagen2{
+    border: 2px solid red;
+
+}
+
+.Titulo{
+    text-align: center;
+}
+
+.ImagenHero{
+    max-width: 100%;
+
+}
+
+.Hero{
+    background-image: url(Imagenes/imagen_reescalada_banner.png);
+    height: 800px;
+    position: relative;
+    
+}
+
+.contenido-hero{
+    color: white;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.418);
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contenedorServicios{
+
+}
+
+.tarjetas{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(108, 181, 245);
+    -webkit-box-shadow: 10px 5px 15px 5px #000000; 
+    box-shadow: 10px 5px 15px 5px #000000;
+    border-radius: 10px;
+
+}
+
+.tarjetaImagen{
+    background-image:url(Imagenes/ai-chip-artificial-intelligence-future-technology-innovation.jpg);
+    width: 140px;
+    height: 130px;
+    background-color: white;
+    border-radius: 10px; 
+    margin-left: auto;   
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.tarjetaTexto{
+
+}
